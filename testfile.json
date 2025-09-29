@@ -1,0 +1,130 @@
+[
+  {
+    "polygon": [
+      {
+        "coord": [
+          1.0,
+          9.0
+        ]
+      },
+      {
+        "coord": [
+          8.0,
+          3.0
+        ]
+      },
+      {
+        "coord": [
+          0.0,
+          -6.0
+        ]
+      },
+      {
+        "coord": [-4.0, 2.0]
+      }
+    ],
+    "point": {
+      "coord": [
+        2.0,
+        2.0
+      ]
+    },
+    "inside": true
+  },
+  {
+    "polygon": [
+      {
+        "coord": [1.0, 9.0]
+      },
+      {
+        "coord": [8.0, 3.0]
+      },
+      {
+        "coord": [0.0, 6.0]
+      },
+      {
+        "coord": [-4.0, 2.0]
+      }
+    ],
+    "point": {
+      "coord": [2.0, 2.0]
+    },
+    "inside": false
+  },
+  {
+    "polygon": [
+      {"coord": [1.5,3.0]},
+      {"coord": [1.0,9.0]},
+      {"coord": [8.0,3.0]},
+      {"coord": [0.0,-6.0]},
+      {"coord": [-4.0,2.0]},
+      {"coord": [-2.0,1.0]}
+    ],
+    "point": {
+      "coord": [2,2]
+    },
+    "inside": true
+  },
+  {
+    "polygon": [
+      {"coord": [1,0]},
+      {"coord": [0,1]},
+      {"coord": [-1,0]},
+      {"coord": [0,-1]}
+    ],
+    "point": {
+      "coord": [0,0]
+    },
+    "inside": true
+  },
+  {
+    "polygon": [
+      {"coord": [-2,0]},
+      {"coord": [-1,0]},
+      {"coord": [0,1]},
+      {"coord": [0,-1]}
+    ],
+    "point": {
+      "coord": [-2,0]
+    },
+    "inside": false
+  },
+  {
+    "polygon": [
+      {"coord": [-2,0]},
+      {"coord": [-1,0]},
+      {"coord": [0,1]},
+      {"coord": [0,-1]}
+    ],
+    "point": {
+      "coord": [-1.5,0]
+    },
+    "inside": false
+  },
+  {
+    "polygon": [
+      {"coord": [-2,0]},
+      {"coord": [-1,0]},
+      {"coord": [0,1]},
+      {"coord": [0,-1]}
+    ],
+    "point": {
+      "coord": [-1,0]
+    },
+    "inside": false
+  },
+  {
+    "polygon": [
+      {"coord": [1.5,3.0]},
+      {"coord": [1.0,9.0]},
+      {"coord": [8.0,3.0]},
+      {"coord": [0.0,-6.0]},
+      {"coord": [-4.0,2.0]},
+      {"coord": [-2.0,1.0]}
+    ],
+    "point": {
+      "coord": [-4,2]
+    },
+    "inside": false
+  }
+]
