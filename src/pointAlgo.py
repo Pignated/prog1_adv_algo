@@ -3,6 +3,8 @@ class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
+    def __str__(self):
+        return str((self.x,self.y))
 def check_point(point, polygon):
     left_intersections = 0
     for i in range(len(polygon)):

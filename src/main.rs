@@ -22,7 +22,7 @@ fn check_point(point: &Point, polygon: &[Point]) -> bool {
         //If a vertex is on the line, add one intersection
         if p0.y == point.y && p0.x <= point.x {
             left_intersections += 1;
-            // print!("2{:?}",polygon[i]);
+            // print!("2{:?}",polygon[i]); `
             //If both the vertex before and after that vertex are on the same side of the line, add another (as it enters than exits. One could argue it never entered but it gives the same end result)
             if (polygon[((i) as isize - 1).rem_euclid(polygon.len() as isize) as usize].y - point.y)*(p1.y-point.y) >= 0.0 {
                 // print!("3{:?}",polygon[i]);
